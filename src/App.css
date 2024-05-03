@@ -1,0 +1,66 @@
+/* app.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: row; /* Change to row to display components side by side */
+  align-items: flex-start; /* Align items at the start of the flex container */
+  justify-content: center;
+  margin-top: 20px;
+  background-color: rgb(223, 138, 92);
+}
+
+.product-container {
+  margin-right: 20px; /* Add margin to create space between product list and cart */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+ 
+}
+
+.card {
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 300px; /* Set a maximum width for each product card */
+  flex: 1 1 250px; /* Allow cards to grow but don't shrink below 250px */
+  background-color: rgb(228, 169, 121);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.image-container {
+  width: 100%; /* Set the width of the image container */
+  height: 200px; /* Set a fixed height for the image container */
+  overflow: hidden; /* Hide any overflow from images */
+}
+
+.image {
+  width: 100px; /* Make sure the image fills the container */
+  height: 100px; /* Maintain aspect ratio */
+}
+
+.cart {
+  border-radius: 5PX;
+  padding: 20px;
+  width: 200px; /* Set width for the cart */
+  margin-left: 20px;
+  background-color: rgb(228, 169, 121);
+}
+
+.cart h2 {
+  margin-top: 0;
+}
+
+.cart p {
+  margin-bottom: 10px;
+}
